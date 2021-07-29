@@ -73,13 +73,14 @@ module.exports = {
       options: {
         repositoryName: process.env.PRISMIC_API_REPOSITORY_NAME,
         accessToken: process.env.PRISMIC_API_ACCESS_TOKEN,
+        // customTypesApiToken: process.env.PRISMIC_CUSTOM_TYPES_API_TOKEN,
 
         linkResolver: () => doc => linkResolver(doc),
 
         schemas: {
-          // Register your custom schemas here
-          homepage: require("./src/schemas/homepage.json"),
+          video: require("./src/schemas/video.json"),
         },
+
         shouldDownloadImage: ({ node, key, value }) => {
           // Return true to download the image or false to skip.
           return !(

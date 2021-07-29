@@ -7,7 +7,7 @@
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
     "decko": "^1.2.0",
-    "gatsby": "^3.9.1",
+    "gatsby": "^3.10.2",
     "gatsby-plugin-breadcrumb": "^12.1.1",
     "gatsby-plugin-gatsby-cloud": "^2.7.0",
     "gatsby-plugin-gdpr-cookies": "^2.0.1",
@@ -30,6 +30,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-player": "^2.9.0",
     "sass": "^1.35.2"
   },
   "devDependencies": {
